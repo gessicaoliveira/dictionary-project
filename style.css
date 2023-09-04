@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Rubik&display=swap');
 
 :root{
-    --background-dark: #FFFFFF;
-    --text-light: rgba(255,255,255,0.6);
+    --text-light: #5D69BE;
     --text-lighter: #C89FEB;
     --spacing-s: 8px;
     --spacing-m: 16px;
@@ -65,7 +64,7 @@
 
     .hero-section{
         align-items: flex-start;
-        background-image: linear-gradient(15deg, #13293D 0%, #7899D4 150%);
+        /* background-image: linear-gradient(15deg, #13293D 0%, #7899D4 150%); */
         display: flex;
         justify-content: center;
         padding: var(--spacing-xxl) var(--spacing-l);
@@ -95,6 +94,7 @@
     .card{
         list-style: none;
         position: relative;
+        border: none;
     }
 
     .card:before{
